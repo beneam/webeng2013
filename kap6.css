@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+.ElementTag{
+	font-style: italic;
+	font-family: serif;
+	font-size: small;
+	min-width: 15%;
+	color: blue;
+}
+.Beschreibung{
+	
+}
+.InlineElement{
+	text-align: center;
+	background-color: fuchsia;
+}
+.BlockElement{
+	text-align: center;
+	background-color: yellow;
+}
+.JSemant{
+	background-color: green;
+	color: yellow;
+	text-align: center;
+}
+.NSemant{
+	background-color: red;
+	color: blue;
+	text-align: center;
+}
+.NAFormat{
+	background-color: gray;
+	text-align: center;
+}
+table, th, td {
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	border-collapse: collapse;
+}
+th{
+	background-color: aqua;
+}
